@@ -3,7 +3,7 @@ import ImageStandOut from "../assets/image-stand-out.jpg";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function StandOut() {
-  const matches = useMediaQuery("(max-width:375px)");
+  const matches = useMediaQuery("(max-width:390px)");
 
   return (
     <Grid container>

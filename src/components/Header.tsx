@@ -11,7 +11,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { Menu as MenuIcon } from "@mui/icons-material";
 
 export default function Header() {
-  const matches = useMediaQuery("(max-width:375px)");
+  const matches = useMediaQuery("(max-width:390px)");
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="absolute" sx={{ background: "none" }} elevation={0}>

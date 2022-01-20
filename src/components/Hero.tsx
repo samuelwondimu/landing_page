@@ -5,7 +5,7 @@ import ArrowDown from "../assets/icon-arrow-down.svg";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function Hero() {
-  const matches = useMediaQuery("(max-width:375px)");
+  const matches = useMediaQuery("(max-width:390px)");
   return (
     <>
       <Box

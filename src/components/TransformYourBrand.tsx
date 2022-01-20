@@ -3,7 +3,7 @@ import ImageTransform from "../assets/image-transform.jpg";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function TransformYourBrand() {
-  const matches = useMediaQuery("(max-width:375px)");
+  const matches = useMediaQuery("(max-width:390px)");
   return (
     <Grid container direction={"row-reverse"}>
       <Grid
